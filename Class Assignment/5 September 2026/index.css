@@ -3,8 +3,7 @@
     display: block;
     width: 400px;
     height: auto;
-    margin-top: 80px;
-    margin-left: 450px;
+    margin: auto;
     border-radius: 15px;
     padding: 10px;
 }
@@ -12,6 +11,8 @@
 img {
     border-radius: 15px;
     margin-bottom: 20px;
+    display: block;
+    margin: auto;
 }
 
 button {
@@ -39,4 +40,6 @@ p {
     font-weight: bolder;
     border-radius:20px;
     background-color: rgba(0, 0, 255, 0.242);
+    display: block;
+    margin: auto;
 }
