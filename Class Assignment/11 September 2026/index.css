@@ -7,10 +7,13 @@ body {
     align-items: center;
     justify-self: center;
     border: 5px solid rgb(255, 200, 0);
+    background-color: white;
     border-radius: 15px;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.19);
     height: 100px;
     width: 1200px;
+    position: fixed;
+    top: 20px;
 }
 
 div {
@@ -57,6 +60,7 @@ a {
     justify-self: center;
     width: 1150px;
     height: 700px;
+    margin-top: 130px;
 }
 
 .imageDIV1 {
