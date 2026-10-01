@@ -1,0 +1,187 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.mainPage {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(244, 247, 249);
+}
+
+header {
+    width: inherit;
+    height: 12%;
+}
+
+.navBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: inherit;
+    height: 100%;
+    gap: 50px;
+}
+
+.navBarLogo {
+    background-image: url(https://cdn.shopify.com/s/files/1/0593/5530/0045/articles/Myntra-Logo-PNG-ovjndf3.png?v=1705320261);
+    width: 70px;
+    height: 50px;
+    background-size: contain;
+}
+
+.navBarLinksList {
+    list-style-type: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    width: 600px;
+}
+
+.navBarLinksList a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+.navBarSearch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F5F6;
+    padding: 10px;
+    gap: 20px;
+    padding-right: 150px;
+    border-radius: 5px;
+}
+
+.navBarSearch input {
+    border: none;
+    background-color: #F5F5F6;
+}
+
+.navBarButtons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.navBarButtons p {
+    font-size: small;
+    margin-top: 5px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+
+.navBarButtons-Profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.navBarButtons-Wishlist {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.navBarButtons-Bag {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.navBarLinksList-MEN {
+    position: relative;
+}
+
+.navBarLinksList .dropdown-MEN {
+    display: none;
+}
+
+.navBarLinksList .navBarLinksList-MEN:hover .dropdown-MEN {
+    display: flex;
+    position: absolute;
+    top: 80px;
+    gap: 50px;
+    width: 1200px;
+    justify-content: left;
+    padding: 10px;
+    margin-top: -20px;
+    background-color: white;
+}
+
+.navBarLinksList .navBarLinksList-MEN:hover #dropdown-MEN-line {
+    position: relative;
+    top: 30px;
+    width: 60px;
+    height: 5px;
+    border: none;
+    background-color: #EE5F73;
+    z-index: 1;
+}
+
+.navBarLinksList .navBarLinksList-MEN .dropdown-MEN .dropdown-MEN2 {
+    background-color: #F8F8F8;
+}
+
+.navBarLinksList .navBarLinksList-MEN .dropdown-MEN .dropdown-MEN4 {
+    background-color: #F8F8F8;
+}
+
+.navBarLinksList .navBarLinksList-MEN .dropdown-MEN .dropdown-MEN1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.navBarLinksList .navBarLinksList-MEN .dropdown-MEN .dropdown-MEN2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.navBarLinksList .navBarLinksList-MEN .dropdown-MEN .dropdown-MEN3 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.navBarLinksList .navBarLinksList-MEN .dropdown-MEN .dropdown-MEN4 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.navBarLinksList .navBarLinksList-MEN .dropdown-MEN .dropdown-MEN5 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.dropdown-MEN ul {
+    list-style-type: none;
+}
+
+.navBarLinksList .redLink {
+    color: #EE5F73;
+    font-size: small;
+    font-weight: 700;
+}
+
+.navBarLinksList .blackLink {
+    color: black;
+    font-size: small;
+    font-weight: 400;
+}
+
+.navBarLinksList .blackLink:hover {
+    font-weight: bolder;
+}
