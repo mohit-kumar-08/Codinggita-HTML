@@ -25,11 +25,13 @@ header {
 }
 
 .navBarLogo {
-    background-image: url(https://cdn.shopify.com/s/files/1/0593/5530/0045/articles/Myntra-Logo-PNG-ovjndf3.png?v=1705320261);
+    background-image: url(https://images.seeklogo.com/logo-png/35/2/myntra-logo-png_seeklogo-355038.png);
     width: 70px;
     height: 50px;
     background-size: contain;
+    background-repeat: no-repeat;
 }
+
 
 .navBarLinksList {
     list-style-type: none;
