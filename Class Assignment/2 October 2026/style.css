@@ -1,0 +1,108 @@
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20vw;
+    background-color: rgba(7, 132, 227, 0.377);
+    padding: 10px;
+}
+
+.navLinks {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    gap: 5vw;
+    font-size: 1.1vw;
+}
+
+.navLinks a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5vw;
+}
+
+.buttons button {
+    color: white;
+    font-weight: bold;
+    background-color: black;
+    border: none;
+    padding-top: 0.7vw;
+    padding-bottom: 0.7vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    font-size: 1vw;
+}
+
+.buttons svg {
+    background-color: black;
+    border-radius: 0.5vw;
+}
+
+svg {
+    display: none;
+}
+
+.aside {
+    position: absolute;
+    display: none;
+    border: 2px solid rgb(153, 151, 151);
+    background-color: rgb(230, 228, 228);
+    justify-self: right;
+    width: 20vw;
+    height: 50vh;
+}
+
+.asideLinks {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    gap: 2vw;
+    font-size: 1.1vw;
+}
+
+.asideLinks a {
+    color: black;
+    text-decoration: none;
+}
+
+.asideLinks button {
+    color: white;
+    font-weight: bold;
+    background-color: black;
+    border: none;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+    padding-left: 1.8vw;
+    padding-right: 1.8vw;
+    font-size: 0.8vw;
+}
+
+@media all and (max-width: 801px) {
+    svg {
+        display: block;
+    }
+
+    ul li {
+        display: none;
+    }
+
+    .buttons button {
+        display: none;
+    }
+
+    nav {
+        gap: 35vw;
+    }
+
+    .burger:hover>.asideLinks {
+        display: block;
+    }
+}
+
