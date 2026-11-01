@@ -1,0 +1,82 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-areas: 
+    "box1 box2"
+    "box3 box4";
+}
+
+/* .container > div {
+    border: 1px solid;
+} */
+
+.box1 {
+    display: grid;
+    grid-area: box1;
+    grid-template: 
+    "sidebar image section2" 1fr
+    "sidebar image section1" 1fr
+    "sidebar header header" 1fr
+    / 1fr 1fr 1fr;
+}
+
+.box2 {
+    display: grid;
+    grid-area: box2;
+    grid-template: 
+    "sidebar header header" 1fr
+    "sidebar image section1" 1fr
+    " sidebar image section2" 1fr
+    / 1fr 1fr 1fr;
+}
+
+.box3 {
+    display: grid;
+    grid-area: box3;
+    grid-template:
+    "header header sidebar" 1fr
+    "section1 image sidebar" 1fr
+    "section2 image sidebar" 1fr
+    / 1fr 1fr 1fr;
+}
+
+.box4 {
+    display: grid;
+    grid-area: box4;
+    grid-template:
+    "section2 image sidebar" 1fr
+    "section1 image sidebar" 1fr
+    "header header sidebar" 1fr
+    / 1fr 1fr 1fr;
+}
+
+.header {
+    grid-area: header;
+    background-color: red;
+}
+
+.sidebar {
+    grid-area: sidebar;
+    background-color: pink;
+}
+
+.image {
+    grid-area: image;
+    background-color: green;
+}
+
+.section1 {
+    grid-area: section1;
+    background-color: darkorange;
+}
+
+.section2 {
+    grid-area: section2;
+    background-color: blue;
+}
