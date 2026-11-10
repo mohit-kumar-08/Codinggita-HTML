@@ -1,0 +1,73 @@
+.card-list {
+    background-color: gold;
+    border: 3px dotted black;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* individual card  */
+.card {
+    border: 3px solid #333;
+    background-color: #dfdfdf;
+    font-size: 20px;
+    padding: 15px;
+}
+
+.card__item {
+    border: 1px dashed;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 2%
+}
+
+@media (min-width: 576px) {
+    .card {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: no-wrap;
+        flex-basis: 50%
+    }
+}
+
+@media (min-width: 768px) {
+    .card-list {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+.card__title {
+    margin: 0;
+}
+
+.card__img {
+    background-color: dodgerblue;
+    min-height: 100px;
+}
+
+
+
+/* Background Styles */
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    padding: 30px;
+}
