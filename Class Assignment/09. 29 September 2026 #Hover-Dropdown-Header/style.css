@@ -58,3 +58,8 @@ a {
     text-decoration: none;
     color: black;
 }
+
+.navBarBtns {
+    display: flex;
+    gap: 10px;
+}
