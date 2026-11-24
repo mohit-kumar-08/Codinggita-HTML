@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohit Kumar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="sudoku">
+        <p class="sudokuHeading">SUDOKU</p>
+        <div class="sudokuBox">
+            <div class="sudokuBoxFill" id="whiteSudokuBox">
+                <div class="sudokuBoxFillAreas">8</div>
+                <div class="sudokuBoxFillAreas"></div>
+                <div class="sudokuBoxFillAreas">6</div>
+                <div class="sudokuBoxFillAreas"></div>
+                <div class="sudokuBoxFillAreas">4</div>
+                <div class="sudokuBoxFillAreas"></div>
+                <div class="sudokuBoxFillAreas">2</div>
+                <div class="sudokuBoxFillAreas"></div>
+                <div class="sudokuBoxFillAreas"></div>
+            </div>
+            <div class="sudokuBoxFill" id="greenSudokuBox">
+                <div class="sudokuBoxFillAreas"></div>
+                <div class="sudokuBoxFillAreas"></div>
+                <div class="sudokuBoxFillAreas">3</div>
+                <div class="sudokuBoxFillAreas"></div>
+                <div class="sudokuBoxFillAreas">1</div>
+                <div class="sudokuBoxFillAreas"></div>
+                <div class="sudokuBoxFillAreas">8</div>
+                <div class="sudokuBoxFillAreas">7</div>
+                <div class="sudokuBoxFillAreas"></div>
+            </div>
+            <div class="sudokuBoxFill" id="whiteSudokuBox">
+                <div class="sudokuBoxFillAreas"></div>
+                <div class="sudokuBoxFillAreas">9</div>
+                <div class="sudokuBoxFillAreas"></div>
+                <div class="sudokuBoxFillAreas"></div>
+                <div class="sudokuBoxFillAreas">6</div>
+                <div class="sudokuBoxFillAreas">8</div>
+                <div class="sudokuBoxFillAreas"></div>
+                <div class="sudokuBoxFillAreas"></div>
+                <div class="sudokuBoxFillAreas">5</div>
+            </div>
+            <div class="sudokuBoxFill" id="greenSudokuBox">
+                <div class="sudokuBoxFillAreas">1</div>
+                <div class="sudokuBoxFillAreas"></div>
+                <div class="sudokuBoxFillAreas">8</div>
+                <div class="sudokuBoxFillAreas"></div>
+                <div class="sudokuBoxFillAreas">3</div>
+                <div class="sudokuBoxFillAreas"></div>
+                <div class="sudokuBoxFillAreas">7</div>
+                <div class="sudokuBoxFillAreas"></div>
+                <div class="sudokuBoxFillAreas">5</div>
+            </div>
+            <div class="sudokuBoxFill" id="whiteSudokuBox">
+                <div class="sudokuBoxFillAreas"></div>
+                <div class="sudokuBoxFillAreas"></div>
+                <div class="sudokuBoxFillAreas">5</div>
+                <div class="sudokuBoxFillAreas">1</div>
+                <div class="sudokuBoxFillAreas"></div>
+                <div class="sudokuBoxFillAreas"></div>
+                <div class="sudokuBoxFillAreas"></div>
+                <div class="sudokuBoxFillAreas">3</div>
+                <div class="sudokuBoxFillAreas"></div>
+            </div>
+            <div class="sudokuBoxFill" id="greenSudokuBox">
+                <div class="sudokuBoxFillAreas"></div>
+                <div class="sudokuBoxFillAreas">2</div>
+                <div class="sudokuBoxFillAreas"></div>
+                <div class="sudokuBoxFillAreas"></div>
+                <div class="sudokuBoxFillAreas">5</div>
+                <div class="sudokuBoxFillAreas"></div>
+                <div class="sudokuBoxFillAreas">9</div>
+                <div class="sudokuBoxFillAreas"></div>
+                <div class="sudokuBoxFillAreas"></div>
+            </div>
+            <div class="sudokuBoxFill" id="whiteSudokuBox">
+                <div class="sudokuBoxFillAreas"></div>
+                <div class="sudokuBoxFillAreas">2</div>
+                <div class="sudokuBoxFillAreas">1</div>
+                <div class="sudokuBoxFillAreas">6</div>
+                <div class="sudokuBoxFillAreas"></div>
+                <div class="sudokuBoxFillAreas"></div>
+                <div class="sudokuBoxFillAreas"></div>
+                <div class="sudokuBoxFillAreas">8</div>
+                <div class="sudokuBoxFillAreas">7</div>
+            </div>
+            <div class="sudokuBoxFill" id="greenSudokuBox">
+                <div class="sudokuBoxFillAreas"></div>
+                <div class="sudokuBoxFillAreas"></div>
+                <div class="sudokuBoxFillAreas">7</div>
+                <div class="sudokuBoxFillAreas"></div>
+                <div class="sudokuBoxFillAreas">2</div>
+                <div class="sudokuBoxFillAreas"></div>
+                <div class="sudokuBoxFillAreas">6</div>
+                <div class="sudokuBoxFillAreas"></div>
+                <div class="sudokuBoxFillAreas">4</div>
+            </div>
+            <div class="sudokuBoxFill" id="whiteSudokuBox">
+                <div class="sudokuBoxFillAreas"></div>
+                <div class="sudokuBoxFillAreas">4</div>
+                <div class="sudokuBoxFillAreas"></div>
+                <div class="sudokuBoxFillAreas">8</div>
+                <div class="sudokuBoxFillAreas"></div>
+                <div class="sudokuBoxFillAreas"></div>
+                <div class="sudokuBoxFillAreas"></div>
+                <div class="sudokuBoxFillAreas"></div>
+                <div class="sudokuBoxFillAreas">3</div>
+            </div>
+        </div>
+    </div>
+    <div class="sudoku">
+        <p class="sudokuHeading">ANSWER</p>
+        <div class="sudokuBox">
+            <div class="sudokuBoxFill" id="whiteSudokuBox">
+                <div class="sudokuBoxFillAreas">8</div>
+                <div class="sudokuBoxFillAreas">7</div>
+                <div class="sudokuBoxFillAreas">6</div>
+                <div class="sudokuBoxFillAreas">5</div>
+                <div class="sudokuBoxFillAreas">4</div>
+                <div class="sudokuBoxFillAreas">3</div>
+                <div class="sudokuBoxFillAreas">2</div>
+                <div class="sudokuBoxFillAreas">1</div>
+                <div class="sudokuBoxFillAreas">9</div>
+            </div>
+            <div class="sudokuBoxFill" id="greenSudokuBox">
+                <div class="sudokuBoxFillAreas">5</div>
+                <div class="sudokuBoxFillAreas">4</div>
+                <div class="sudokuBoxFillAreas">3</div>
+                <div class="sudokuBoxFillAreas">2</div>
+                <div class="sudokuBoxFillAreas">1</div>
+                <div class="sudokuBoxFillAreas">9</div>
+                <div class="sudokuBoxFillAreas">8</div>
+                <div class="sudokuBoxFillAreas">7</div>
+                <div class="sudokuBoxFillAreas">6</div>
+            </div>
+            <div class="sudokuBoxFill" id="whiteSudokuBox">
+                <div class="sudokuBoxFillAreas">1</div>
+                <div class="sudokuBoxFillAreas">9</div>
+                <div class="sudokuBoxFillAreas">2</div>
+                <div class="sudokuBoxFillAreas">7</div>
+                <div class="sudokuBoxFillAreas">6</div>
+                <div class="sudokuBoxFillAreas">8</div>
+                <div class="sudokuBoxFillAreas">4</div>
+                <div class="sudokuBoxFillAreas">3</div>
+                <div class="sudokuBoxFillAreas">5</div>
+            </div>
+            <div class="sudokuBoxFill" id="greenSudokuBox">
+                <div class="sudokuBoxFillAreas">1</div>
+                <div class="sudokuBoxFillAreas">9</div>
+                <div class="sudokuBoxFillAreas">8</div>
+                <div class="sudokuBoxFillAreas">4</div>
+                <div class="sudokuBoxFillAreas">3</div>
+                <div class="sudokuBoxFillAreas">2</div>
+                <div class="sudokuBoxFillAreas">7</div>
+                <div class="sudokuBoxFillAreas">6</div>
+                <div class="sudokuBoxFillAreas">5</div>
+            </div>
+            <div class="sudokuBoxFill" id="whiteSudokuBox">
+                <div class="sudokuBoxFillAreas">7</div>
+                <div class="sudokuBoxFillAreas">6</div>
+                <div class="sudokuBoxFillAreas">5</div>
+                <div class="sudokuBoxFillAreas">1</div>
+                <div class="sudokuBoxFillAreas">9</div>
+                <div class="sudokuBoxFillAreas">8</div>
+                <div class="sudokuBoxFillAreas">4</div>
+                <div class="sudokuBoxFillAreas">3</div>
+                <div class="sudokuBoxFillAreas">2</div>
+            </div>
+            <div class="sudokuBoxFill" id="greenSudokuBox">
+                <div class="sudokuBoxFillAreas">3</div>
+                <div class="sudokuBoxFillAreas">2</div>
+                <div class="sudokuBoxFillAreas">4</div>
+                <div class="sudokuBoxFillAreas">6</div>
+                <div class="sudokuBoxFillAreas">5</div>
+                <div class="sudokuBoxFillAreas">7</div>
+                <div class="sudokuBoxFillAreas">9</div>
+                <div class="sudokuBoxFillAreas">8</div>
+                <div class="sudokuBoxFillAreas">1</div>
+            </div>
+            <div class="sudokuBoxFill" id="whiteSudokuBox">
+                <div class="sudokuBoxFillAreas">3</div>
+                <div class="sudokuBoxFillAreas">2</div>
+                <div class="sudokuBoxFillAreas">1</div>
+                <div class="sudokuBoxFillAreas">6</div>
+                <div class="sudokuBoxFillAreas">5</div>
+                <div class="sudokuBoxFillAreas">4</div>
+                <div class="sudokuBoxFillAreas">9</div>
+                <div class="sudokuBoxFillAreas">8</div>
+                <div class="sudokuBoxFillAreas">7</div>
+            </div>
+            <div class="sudokuBoxFill" id="greenSudokuBox">
+                <div class="sudokuBoxFillAreas">9</div>
+                <div class="sudokuBoxFillAreas">8</div>
+                <div class="sudokuBoxFillAreas">7</div>
+                <div class="sudokuBoxFillAreas">3</div>
+                <div class="sudokuBoxFillAreas">2</div>
+                <div class="sudokuBoxFillAreas">1</div>
+                <div class="sudokuBoxFillAreas">6</div>
+                <div class="sudokuBoxFillAreas">5</div>
+                <div class="sudokuBoxFillAreas">4</div>
+            </div>
+            <div class="sudokuBoxFill" id="whiteSudokuBox">
+                <div class="sudokuBoxFillAreas">5</div>
+                <div class="sudokuBoxFillAreas">4</div>
+                <div class="sudokuBoxFillAreas">6</div>
+                <div class="sudokuBoxFillAreas">8</div>
+                <div class="sudokuBoxFillAreas">7</div>
+                <div class="sudokuBoxFillAreas">9</div>
+                <div class="sudokuBoxFillAreas">2</div>
+                <div class="sudokuBoxFillAreas">1</div>
+                <div class="sudokuBoxFillAreas">3</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

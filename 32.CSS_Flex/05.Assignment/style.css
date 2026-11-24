@@ -1,0 +1,224 @@
+.body {
+    padding: 0px;
+    margin: 0px;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vh;
+    height: 100vh;
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.ludoBox {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid red;
+    width: 80vh;
+    height: 80vh;
+}
+
+.ludoTopLayer {
+    width: 100%;
+    height: 40%;
+    display: flex;
+}
+
+.ludoMiddleLayer {
+    width: 100%;
+    height: 20%;
+    display: flex;
+}
+
+.ludoBottomLayer {
+    width: 100%;
+    height: 40%;
+    display: flex;
+}
+
+#home {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.redHome {
+    background-color: red;
+}
+
+.yellowHome {
+    background-color: yellow;
+}
+
+.blueHome {
+    background-color: blue;
+}
+
+.greenHome {
+    background-color: green;
+}
+
+#pathV {
+    width: 20%;
+    height: 100%;
+    border: 1px solid black;
+}
+#pathH {
+    width: 40%;
+    height: 100%;
+    border: 1px solid black;
+}
+
+.ludoCenter {
+    width: 20%;
+    height: 100%;
+    border: 1px solid black;
+    position: relative;
+}
+
+#red-center-area {
+    height: 100%;
+    width: 100%;
+    clip-path: polygon(0% 0%, 50% 50%, 0% 100%);
+    background-color: red;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#green-center-area {
+    width: 100%;
+    height: 100%;
+    clip-path: polygon(0% 0%, 100% 0%, 50% 50%);
+    background-color: green;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#yellow-center-area {
+    width: 100%;
+    height: 100%;
+    clip-path: polygon(100% 0%, 100% 100%, 50% 50%);
+    background-color: yellow;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+#blue-center-area {
+    width: 100%;
+    height: 100%;
+    clip-path: polygon(0% 100%, 50% 50%, 100% 100%);
+    background-color: blue;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.whiteOfHome {
+    display: flex;
+    width: 70%;
+    height: 70%;
+    background-color: white;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 17%;
+}
+
+.redHomeCircle {
+    width: 20%;
+    height: 20%;
+    border: 5px solid red;
+    border-radius: 50%;
+}
+
+.greenHomeCircle {
+    width: 20%;
+    height: 20%;
+    border: 5px solid green;
+    border-radius: 50%;
+}
+
+.blueHomeCircle {
+    width: 20%;
+    height: 20%;
+    border: 5px solid blue;
+    border-radius: 50%;
+}
+
+.yellowHomeCircle {
+    width: 20%;
+    height: 20%;
+    border: 5px solid yellow;
+    border-radius: 50%;
+}
+
+.greenPath {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.greenPathBoxWhite {
+    background-color: white;
+    border: 1px solid black;
+    width: 31%;
+}
+
+#greenBox {
+    background-color: green;
+}
+
+.bluePath {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bluePathBoxWhite {
+    background-color: white;
+    border: 1px solid black;
+    width: 31%;
+}
+
+#blueBox {
+    background-color: blue;
+}
+
+.yellowPath {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.yellowPathBoxWhite {
+    background-color: white;
+    border: 1px solid black;
+    height: 31%;
+}
+
+#yellowBox {
+    background-color: yellow;
+}
+
+.redPath {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.redPathBoxWhite {
+    background-color: white;
+    border: 1px solid black;
+    height: 31%;
+}
+
+#redBox {
+    background-color: red;
+}
+
