@@ -14,7 +14,6 @@ button, li {
 }
 
 .main-title {
-    position: fixed;
     top: 0px;
     background-image: url("https://github.com/codinggita/CGxSU_Semester_1/blob/main/Semester_1/html_css_js(sem_01)/CSS/00.assignment/02.level_2/11.netflix-clone/assets/Title-Image.png?raw=true");
     width: 100vw;
@@ -208,14 +207,17 @@ a {
     gap: 10px;
 }
 
+.top-ten-in-your-country {
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
 .ranked-video-suggestion-list {
     display: flex;
     gap: 25px;
     margin-bottom: 60px;
     margin-left: -4%;
     height: 185px;
-    overflow-y: scroll;
-    /* scrollbar-width: none; */
 }
 
 .ranked-suggestion-video-container {
